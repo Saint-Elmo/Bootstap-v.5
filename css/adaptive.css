@@ -1,0 +1,43 @@
+/*768-1023*/
+@media screen and  (max-width: 1023px) {
+    #title {
+        font-size: 34px;
+        margin-top: 50px;
+    }
+    #title-text {
+        font-size: 20px;
+    }
+    #name, #Surname {
+        margin-top: 15px;
+    }
+    #services .icon-box {
+        padding: 40px 20px;
+    }
+}
+/*425-767*/
+@media screen and  (max-width: 767px) {
+    #title {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    .icon-box-container:last-child, .icon-box-container:nth-child(3), .icon-box-container:nth-child(4) {
+        display: none;
+    }
+    .icon-box-container .icon-box{
+        padding: 20px;
+    }
+
+    #services .icon-box {
+        padding:20px;
+    }
+}
+@media screen and  (max-width: 424px) {
+    #title {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    #title-text {
+        font-size: 15px;
+    }
+}
